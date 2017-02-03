@@ -1,6 +1,5 @@
 package com.swarm.rest;
 
-import javax.ejb.Stateless;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -13,7 +12,6 @@ import com.swarm.hystrix.HelloServiceCommand;
  * @author bhawani.singh
  *
  */
-@Stateless
 @Path("swarmhystrixapp")
 public class SwarmREST {
 
